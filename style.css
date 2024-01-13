@@ -38,14 +38,32 @@ body{
 .container input{
     width: 100%;
     max-width: 50px;
-    padding: 5px 0px;
+    padding: 2px;
     font-size: 16px;
     text-align: center;
     outline: none;
     border: 1px solid rgb(100, 100, 100);
-    border-radius: none;
+    border-radius: 6px;
+    color: rgb(80, 80, 80);
 }
 
 .container input::-webkit-inner-spin-button{
     display: none;
+}
+.primos{
+    width: 100%;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    line-height:32px;
+    padding: 15px 0;
+}
+.container button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #5061ff;
+    color: white;
+    cursor: pointer;
 }
